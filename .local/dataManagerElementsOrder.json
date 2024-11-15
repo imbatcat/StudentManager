@@ -1,0 +1,80 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dict_Scores&"
+      ],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strFolderPath&Sequence_1",
+        "element_EnableEdit&Sequence_1",
+        "int_StuCount&Sequence_1",
+        "dict_ObjScores&Sequence_1",
+        "obj_MidTerm&Sequence_1",
+        "obj_FinalTerm&Sequence_1",
+        "strArr_Subjects&Sequence_1",
+        "dt_ScoreBoard&Sequence_1",
+        "int_CurrentSubjectIndex&Sequence_1",
+        "strArr_Headers&Sequence_1",
+        "bool_IsFirstExcel&Sequence_55",
+        "int_TransactionNumber&Sequence_63",
+        "dict_Scores&e4364660-4969-4776-9e35-3dd2f64190a2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Retrieve_Scores_From_File.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "obj_FinalScore&Sequence_3",
+        "bool_IsFirstRow&Sequence_2",
+        "int_TransactionNumber&Sequence_1",
+        "dtr_DataRow&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Subject",
+        "io_dt_ScoreBoard",
+        "in_MaxIterations",
+        "in_FileFullPath"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Summarize_Scores_In_Excel.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_SummaryExcelPath&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_StrFolderPath",
+        "in_ScoreBoard"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Process_Datatable.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "double_AverageScore&Sequence_2",
+        "int_Index&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_dt_ScoreBoard"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
